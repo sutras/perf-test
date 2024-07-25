@@ -1,0 +1,29 @@
+{
+  "name": "perf-test",
+  "version": "1.0.1",
+  "description": "性能测试",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts --target esnext --declaration"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "performance",
+    "test",
+    "性能",
+    "测试"
+  ],
+  "author": "wuzhitao",
+  "license": "MIT",
+  "homepage": "https://github.com/sutras/perf-test",
+  "repository": {
+    "url": "git+https://github.com/sutras/perf-test.git"
+  }
+}
