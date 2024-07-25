@@ -1,4 +1,4 @@
-# perf-test
+# @gunny/perf-test
 
 ## 简介
 
@@ -7,15 +7,15 @@
 ## 下载
 
 ```bash
-npm install perf-test -D
+npm install @gunny/perf-test -D
 ```
 
 ## 使用
 
 ```js
-import perfTest from "perf-test";
+import perfTest from "@gunny/perf-test";
 
-function exec(label) {
+function test(label) {
   perfTest.start(label);
   // 某些操作
   perfTest.end(label);
@@ -23,6 +23,6 @@ function exec(label) {
 
 // 测试10次
 perfTest(10, (i) => {
-  exec(`测试${i + 1}`);
+  test(`测试${i + 1}`);
 });
 ```

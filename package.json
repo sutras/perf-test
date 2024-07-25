@@ -1,6 +1,6 @@
 {
-  "name": "perf-test",
-  "version": "0.1.0",
+  "name": "@gunny/perf-test",
+  "version": "0.1.1",
   "description": "性能测试",
   "type": "module",
   "main": "index.js",
@@ -11,6 +11,8 @@
     "build": "tsc index.ts --target esnext --declaration"
   },
   "files": [
+    "index.js",
+    "index.d.ts"
   ],
   "keywords": [
     "performance",
